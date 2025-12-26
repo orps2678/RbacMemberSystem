@@ -1,0 +1,40 @@
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets（重要！）
+appsettings.Production.json
+*.pfx
+*.key
+
+# NuGet
+*.nupkg
+packages/
+
+# EF Core
+*.db
+*.db-shm
+*.db-wal
+
+# Docker（可選，如果不想追蹤 .env）
+# .env
