@@ -25,6 +25,12 @@ try
     builder.Services.AddDbContext<AppDbContext>(options =>
         options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+    // === 加入 FluentValidation
+    builder.Services.AddValidatorsFromAssemblyContaining<RegisterDtoValidator>();
+
+    // === 加入 AuthService
+    builder.Services.AddScoped<AuthService>();
+
     var app = builder.Build();
 
     // === Seed Data ===

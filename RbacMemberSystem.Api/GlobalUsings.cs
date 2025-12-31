@@ -20,6 +20,7 @@ global using Serilog;
 // Project（等建立檔案後再取消註解）
 global using RbacMemberSystem.Api.Entities;
 global using RbacMemberSystem.Api.Data;
+global using RbacMemberSystem.Api.DTOs.Auth;
 global using RbacMemberSystem.Api.Data.Configurations;
-// global using RbacMemberSystem.Api.DTOs;
-// global using RbacMemberSystem.Api.Services;
+global using RbacMemberSystem.Api.Validators.Auth;
+global using RbacMemberSystem.Api.Services;
