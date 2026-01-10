@@ -24,3 +24,4 @@ global using RbacMemberSystem.Api.DTOs.Auth;
 global using RbacMemberSystem.Api.Data.Configurations;
 global using RbacMemberSystem.Api.Validators.Auth;
 global using RbacMemberSystem.Api.Services;
+global using RbacMemberSystem.Api.Configurations;
